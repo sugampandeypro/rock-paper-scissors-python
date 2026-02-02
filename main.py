@@ -31,10 +31,10 @@ game_images=[rock,paper,scissors]
 #Asking player for their choice
 player_choice = int(input
              ("What do you choose? Type 0 for ""rock"
-                   " 1 for paper or 2 for scissors?...\n"))
+             " 1 for paper or 2 for scissors?...\n"))
 
 if player_choice>=0 and player_choice<=3:
-    print(f"Player choose:")
+    print("Player choose:")
     print(game_images[player_choice])
     
 #computer randomly chooses
